@@ -3,6 +3,7 @@
 #We should probably run this as root
 
 #zshrc
-ln -s ./zshrc /etc/zsh/zshrc
+rm /etc/zsh/zshrc
+ln -s /home/jadelclemens/dotfiles/zshrc /etc/zsh/zshrc
 echo "source /etc/zsh/zshrc" > /home/jadelclemens/.zshrc
 echo "source /etc/zsh/zshrc" > /root/.zshrc

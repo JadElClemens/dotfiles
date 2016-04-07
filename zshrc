@@ -48,7 +48,7 @@ fi
 hostname=`hostname -s`
 
 if [ "$hostname" = "Madoka" ]; then
-    hostnamecolor=000
+    hostnamecolor=211
 else if [ "$hostname" = "Homura" ]; then
     hostnamecolor=129
 else if [ "$hostname" = "Sayaka" ]; then

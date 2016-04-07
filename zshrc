@@ -1,6 +1,6 @@
 # Aliases
 alias ls='ls --color=auto -N'
-alias nano='nano --softwrap'
+alias nano='nano --morespace --tabstospaces --tabsize=4 --autoindent'
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile

@@ -4,6 +4,6 @@
 
 #zshrc
 rm /etc/zsh/zshrc
-ln -s /home/jadelclemens/dotfiles/zshrc /etc/zsh/zshrc
+cp zshrc /etc/zsh/zshrc
 echo "source /etc/zsh/zshrc" > /home/jadelclemens/.zshrc
 echo "source /etc/zsh/zshrc" > /root/.zshrc
